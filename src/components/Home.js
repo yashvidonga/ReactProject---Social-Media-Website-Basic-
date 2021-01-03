@@ -14,7 +14,7 @@ export default class Home extends Component {
 
     _handleKeyDown = (e) => {
         //alert('enter key pressed');
-        if(e.key=='Enter')
+        if(e.key==='Enter')
         {   
             var posts=this.state.posts
             var date = new Date();

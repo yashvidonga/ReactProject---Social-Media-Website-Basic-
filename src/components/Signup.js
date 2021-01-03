@@ -18,7 +18,7 @@ export default class Signup extends Component {
     handleSubmit = (event) =>{
         event.preventDefault();
         var {password, cpassword} =  this.state;
-        if(password != cpassword)
+        if(password !== cpassword)
         {
             this.setState({error:'Password doesn\'t Match'})
         }

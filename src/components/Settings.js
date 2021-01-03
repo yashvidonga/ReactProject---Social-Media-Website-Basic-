@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
 import './Login.css';
 import users from '../users/users.json';
 
@@ -17,9 +16,9 @@ export default class Settings extends Component {
     }
     handleSubmit =(e)=>{
             e.preventDefault();
-            if(this.state.cpassword == this.state.newpassword)
+            if(this.state.cpassword === this.state.newpassword)
             {
-                    var user = users.filter(user=>user.email==localStorage.getItem('email'))
+                    var user = users.filter(user=>user.email===localStorage.getItem('email'))
                     console.log(user)
                     user.password = this.state.newpassword;
                     console.log(user)

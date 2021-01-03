@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import SocialBuilder from './components/SocialBuilder';
 import { Route, Switch } from 'react-router';
