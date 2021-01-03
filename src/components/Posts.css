@@ -1,0 +1,53 @@
+.jss215 {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+}
+.jss216 {
+    
+    margin-right: 16px;
+}
+.jss146 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    font-size: 1.25rem;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    user-select: none;
+    border-radius: 50%;
+    justify-content: center;
+}
+.jss148 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    object-fit: cover;
+}
+.jss218 {
+    flex: 1 1 auto;
+}
+.jss113 {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.71429em;
+}
+.jss105 {
+    margin: 0;
+    display: block;
+}
+.jss127 {
+    color: rgba(0, 0, 0, 0.54);
+}
+.posts{
+    max-width: 40%;
+    margin-left: 40px;
+}
+.post{
+    padding:20px;
+}

@@ -1,0 +1,9 @@
+.title{
+  text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: auto;
+    color: hsla(120,4%,56%,.2);
+}

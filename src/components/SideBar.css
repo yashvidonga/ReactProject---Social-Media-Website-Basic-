@@ -1,0 +1,15 @@
+.sidebar{
+    max-height: 100%;
+    background-color: #fafafa;
+    margin: 20px;
+}
+.nav-link{
+    font-size: 1.5em;
+    background-color: #fafafa;
+}
+.nav-link i{
+    margin-right: 20px;
+}
+.nav-link:hover{
+    background-color: #d0caca;
+}

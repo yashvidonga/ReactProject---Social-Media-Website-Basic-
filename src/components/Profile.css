@@ -1,0 +1,10 @@
+.profile{
+    margin-top: 20px;
+    position: relative;
+}
+.pname{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    color: #fff;
+}

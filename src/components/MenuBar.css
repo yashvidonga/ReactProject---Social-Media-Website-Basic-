@@ -1,0 +1,31 @@
+.bar{
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+    color: #fff;
+}
+header{
+    background-color: #00b1b3;
+}
+header h2{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.right{
+    float: right;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.right.link{
+    color: #fff;
+}
+.left{
+    float: left;
+}
+.clear{
+    clear: both;
+}
